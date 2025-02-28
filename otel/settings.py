@@ -52,6 +52,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    'main.middleware.RedirectAfterLoginMiddleware'
 ]
 
 ROOT_URLCONF = 'otel.urls'
